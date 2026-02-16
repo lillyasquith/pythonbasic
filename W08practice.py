@@ -30,32 +30,32 @@
 
 # W08: Team Activity - Code starts here:
 
-# words = "Commitment"
+words = "Commitment"
 
-# user_letter = input("What is your favorite letter? ").lower()
+user_letter = input("What is your favorite letter? ").lower()
 
-# for i in words:
-#     if i == user_letter:
-#         print("_", end="")
-#     else:
-#         print(i.lower(), end="")
+for i in words:
+    if i == user_letter:
+        print("_", end="")
+    else:
+        print(i.lower(), end="")
 
 
 #Stretch Challenge:
 
-quote = "In coming days, it will not be possible to survive spiritually without the guiding, directing, comforting, and constant influence of the Holy Ghost."
+# quote = "In coming days, it will not be possible to survive spiritually without the guiding, directing, comforting, and constant influence of the Holy Ghost."
 
-play_again = "yes"
+# play_again = "yes"
 
-while play_again == "yes":
-    num = int(input("Please enter a number: "))
-    for i, letter in enumerate (quote):
-        #print (f"letter {letter} at index {i}")
-        if i % num == 0:
-            print (letter.capitalize(), end="")
-        else:
-            print (letter.lower(), end="")
-    print()   
-    play_again = input("Would you like to enter another number? ")
+# while play_again == "yes":
+#     num = int(input("Please enter a number: "))
+#     for i, letter in enumerate (quote):
+#         #print (f"letter {letter} at index {i}")
+#         if i % num == 0:
+#             print (letter.capitalize(), end="")
+#         else:
+#             print (letter.lower(), end="")
+#     print()   
+#     play_again = input("Would you like to enter another number? ")
     
-print ("Goodbye.")       
+# print ("Goodbye.")       
