@@ -1,5 +1,5 @@
 #****************************************************#
-# W09 CheckPoint - Practice working with list indexes.
+# W10 CheckPoint - Practice working with list indexes.
 #****************************************************#
 print("Please enter the items of the shopping list (type: quit to finish):")
 items = []
@@ -28,6 +28,7 @@ for i in range(len(items)):
 print()
 remove_item = int(input("Which item would you like to change? "))
 items.pop(remove_item)
+
 new_item = input("What is the new item? ")
 items.insert(remove_item, new_item)
 
@@ -37,3 +38,8 @@ print("The shopping list with indexes is: ")
 for i in range(len(items)):
     item = items[i]
     print(f"{i}. {item}")
+
+# NOTE: We could use
+# list[i] = "new"
+# to replaces the value at that spot instantly.
+# Instead of using list.pop(i) then list.insert(i, "new")
