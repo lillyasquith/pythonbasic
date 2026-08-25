@@ -31,8 +31,8 @@ for line in people:
 
         #What happens: If age is 2 and age_youngest was 999, age_youngest becomes 2
 
-        print(youngest_person)
-        print(age_youngest)
+        # print(youngest_person)
+        # print(age_youngest)
 
         # IF print(f"the youngest age is {age_youngest}") is indented inside the if block, Python prints a message every single time it finds a new record-low age, rather than waiting until it finishes checking all the ages. =>> Unindent the final print statement so when it finds the lowest age, it will stop the loop and the if, and save that youngest age result to print outside the loop.
 
